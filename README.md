@@ -1,4 +1,4 @@
-# Práctica IA (RA4 · a) — Automatización y optimización
+# Práctica IA (RA4 · a) — Automatización y optimización 
 
 ## 1) Proceso elegido
 - **Nombre del proceso**: Soporte al cliente en atención a través de chatbots.
