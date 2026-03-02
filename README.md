@@ -111,14 +111,14 @@ Cada cliente genera más ingresos por compra, aumentando el margen global.
 
 ## 6) Diagrama del pipeline (ASCII)
 
-A[Usuarios (Web/App)] --> B[Captura de datos: clics, compras, búsquedas]
-B --> C[Limpieza y normalización]
-C --> D[Data Lake]
-D --> E[Preparación de variables]
-E --> F[Modelo de recomendación y predicción]
-F --> G[Recomendaciones + Predicción de demanda]
-G --> H[Decisiones: promociones, stock, precios]
-H --> I[Impacto en ventas y reducción de costes]
+    A[Usuarios (Web/App)] --> B[Captura de datos: clics, compras, búsquedas]
+    B --> C[Limpieza y normalización]
+    C --> D[Data Lake]    
+    D --> E[Preparación de variables]
+    E --> F[Modelo de recomendación y predicción]
+    F --> G[Recomendaciones + Predicción de demanda]
+    G --> H[Decisiones: promociones, stock, precios]
+    H --> I[Impacto en ventas y reducción de costes]
 
 ## 7) Riesgos y mitigación
 
