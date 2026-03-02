@@ -111,11 +111,45 @@ Cada cliente genera más ingresos por compra, aumentando el margen global.
 
 ## 6) Diagrama del pipeline (ASCII)
 
-    A[Usuarios (Web/App)] --> B[Captura de datos: clics, compras, búsquedas]
-    B --> C[Limpieza y normalización]
-    C --> D[Data Lake]
-    D --> E[Preparación de variables]
-    E --> F[Modelo de recomendación y predicción]
-    F --> G[Recomendaciones + Predicción de demanda]
-    G --> H[Decisiones: promociones, stock, precios]
-    H --> I[Impacto en ventas y reducción de costes]
+A[Usuarios (Web/App)] --> B[Captura de datos: clics, compras, búsquedas]
+B --> C[Limpieza y normalización]
+C --> D[Data Lake]
+D --> E[Preparación de variables]
+E --> F[Modelo de recomendación y predicción]
+F --> G[Recomendaciones + Predicción de demanda]
+G --> H[Decisiones: promociones, stock, precios]
+H --> I[Impacto en ventas y reducción de costes]
+
+## 7) Riesgos y mitigación
+
+### Riesgo 1: Privacidad y protección de datos
+- **Mitigación 1:** Implementar cifrado de datos sensibles, cumplir con GDPR y otras normativas de privacidad, y anonimizar los datos de los usuarios cuando se usan para entrenar modelos.
+
+### Riesgo 2: Sesgos en los modelos de IA
+- **Mitigación 2:** Realizar auditorías periódicas de los algoritmos, entrenar con datos diversos y balanceados, e implementar controles de equidad en las recomendaciones y predicciones.
+
+---
+
+## 8) Valoración (criterio c): importancia presente y futura de la IA
+
+- **Importancia actual (hoy):**  
+La IA permite a empresas como Amazon optimizar ventas, personalizar la experiencia del cliente y mejorar la eficiencia logística. Los sistemas de recomendación y predicción de demanda son claves para aumentar ingresos y reducir costes operativos.
+
+- **Importancia futura (3–5 años):**  
+Se espera que la IA evolucione hacia modelos más precisos, integración en tiempo real en todos los procesos de negocio, y automatización avanzada de logística y marketing personalizado. Las empresas que no adopten IA perderán competitividad.
+
+- **Condiciones/limitaciones:**  
+Se requiere calidad y volumen de datos suficiente, inversión en infraestructura y talento especializado, cumplimiento de regulaciones de privacidad y ética, y mitigación de impactos en empleo por automatización.
+
+- **Conclusión razonada:**  
+La IA es estratégica para la rentabilidad y sostenibilidad empresarial. Su implementación efectiva no solo incrementa ventas y eficiencia, sino que también permite una ventaja competitiva a largo plazo, siempre que se gestionen riesgos de privacidad, sesgo y costes.
+
+---
+
+## 9) Fuentes oficiales (mín. 2)
+
+- **Big Data/analítica (enlace oficial):**  
+[Amazon Big Data & Analytics Services](https://aws.amazon.com/big-data/)
+
+- **IA/técnica/modelo (enlace oficial):**  
+[Amazon Machine Learning & AI Services](https://aws.amazon.com/machine-learning/)
