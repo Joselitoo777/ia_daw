@@ -66,3 +66,91 @@ Esta práctica se relaciona con los ciclos formativos de Desarrollo de Aplicacio
   - C++
   - Java
   - MATLAB
+
+---
+
+## 3) Lenguajes de programación en IA
+
+### Lenguaje 1
+- **Nombre:** Python
+- **Uso principal en IA:** Desarrollo de modelos de machine learning, análisis de datos y redes neuronales.
+- **Ventajas:**
+  - Sintaxis sencilla y fácil de aprender.
+  - Gran cantidad de librerías especializadas (TensorFlow, PyTorch, Scikit-learn).
+  - Amplia comunidad y documentación.
+- **Ejemplos de uso:**
+  - Sistemas de recomendación en comercio electrónico.
+  - Análisis de imágenes médicas en sanidad.
+  - Desarrollo de modelos de predicción.
+
+---
+
+### Lenguaje 2
+- **Nombre:** R
+- **Uso principal en IA:** Análisis estadístico, procesamiento de datos y creación de modelos predictivos.
+- **Ventajas:**
+  - Muy potente para análisis estadístico.
+  - Gran cantidad de paquetes para análisis de datos.
+  - Muy utilizado en investigación y ciencia de datos.
+- **Ejemplos de uso:**
+  - Análisis de datos médicos.
+  - Modelos estadísticos para investigación.
+  - Visualización de datos complejos.
+
+---
+
+### Lenguaje 3
+- **Nombre:** Java
+- **Uso principal en IA:** Desarrollo de aplicaciones empresariales que integran modelos de inteligencia artificial.
+- **Ventajas:**
+  - Muy utilizado en sistemas grandes y escalables.
+  - Buena integración con aplicaciones backend.
+  - Gran estabilidad y rendimiento.
+- **Ejemplos de uso:**
+  - Sistemas de recomendación en plataformas de comercio electrónico.
+  - Aplicaciones empresariales con análisis de datos.
+  - Sistemas de gestión logística.
+
+---
+
+### Lenguaje 4
+- **Nombre:** C++
+- **Uso principal en IA:** Desarrollo de sistemas de alto rendimiento y procesamiento en tiempo real.
+- **Ventajas:**
+  - Muy rápido y eficiente.
+  - Permite un control detallado del hardware.
+  - Ideal para sistemas que requieren gran rendimiento.
+- **Ejemplos de uso:**
+  - Software para conducción autónoma.
+  - Procesamiento de imágenes.
+  - Sistemas de visión artificial.
+
+---
+
+## 4) Relación entre sectores, tipo de IA y lenguaje
+
+| Sector | Aplicación de IA | Tipo de IA/técnica | Lenguaje recomendado | Justificación |
+|--------|------------------|--------------------|----------------------|---------------|
+| Sanidad | Diagnóstico mediante imágenes médicas | Visión artificial y aprendizaje profundo | Python | Tiene muchas librerías especializadas en machine learning y análisis de imágenes. |
+| Comercio electrónico | Sistemas de recomendación de productos | Machine Learning y análisis de datos | Python / Java | Python para desarrollar los modelos y Java para integrarlos en plataformas web grandes. |
+| Transporte y movilidad | Conducción autónoma y optimización de rutas | Visión artificial y aprendizaje automático | C++ / Python | C++ se utiliza para sistemas en tiempo real y Python para el desarrollo de modelos de IA. |
+
+---
+
+## 5) Diagrama (ASCII o Mermaid)
+
+```mermaid
+graph TD
+
+A[Inteligencia Artificial] --> B[Sanidad]
+A --> C[Comercio electrónico]
+A --> D[Transporte y movilidad]
+
+B --> B1[Diagnóstico con imágenes]
+B1 --> B2[Python]
+
+C --> C1[Sistemas de recomendación]
+C1 --> C2[Python / Java]
+
+D --> D1[Conducción autónoma]
+D1 --> D2[C++ / Python]
