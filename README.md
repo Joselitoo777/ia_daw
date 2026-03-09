@@ -139,7 +139,7 @@ Esta práctica se relaciona con los ciclos formativos de Desarrollo de Aplicacio
 
 ## 5) Diagrama (ASCII o Mermaid)
 
-```mermaid
+````mermaid
 graph TD
 
 A[Inteligencia Artificial] --> B[Sanidad]
@@ -154,3 +154,39 @@ C1 --> C2[Python / Java]
 
 D --> D1[Conducción autónoma]
 D1 --> D2[C++ / Python]
+
+````
+---
+
+## 6) Riesgos y mitigación
+
+- **Riesgo 1:** Uso incorrecto o poco ético de la IA, como decisiones automáticas con sesgos o errores en diagnósticos o recomendaciones.  
+- **Mitigación 1:** Supervisión humana en las decisiones importantes, mejora continua de los datos utilizados para entrenar los modelos y auditorías de los sistemas de IA.
+
+- **Riesgo 2:** Problemas de privacidad y seguridad de los datos, especialmente en sectores como sanidad o comercio electrónico donde se manejan datos personales.  
+- **Mitigación 2:** Aplicar medidas de protección de datos, anonimización de información sensible y cumplir normativas como el RGPD (Reglamento General de Protección de Datos).
+
+---
+
+## 7) Conclusión
+
+- **Qué sectores destacan más:**  
+  Los sectores de sanidad, comercio electrónico y transporte destacan por el gran volumen de datos que generan y por el impacto que la IA puede tener en la mejora de sus procesos y servicios.
+
+- **Qué lenguajes aparecen con más frecuencia:**  
+  Python aparece como el lenguaje más utilizado en inteligencia artificial debido a su gran ecosistema de librerías. También destacan Java, C++ y R dependiendo del tipo de aplicación.
+
+- **Qué importancia tiene esto para DAW/DAM:**  
+  Para los desarrolladores de aplicaciones web o multiplataforma es importante conocer cómo integrar servicios de IA en las aplicaciones. Esto permite crear software más avanzado, con funciones como recomendaciones automáticas, análisis de datos o automatización de procesos.
+
+---
+
+## 8) Fuentes oficiales (mín. 2)
+
+- **Fuente 1 (sectores / aplicación IA):**  
+  Comisión Europea — Inteligencia Artificial  
+  https://digital-strategy.ec.europa.eu/es/policies/artificial-intelligence
+
+- **Fuente 2 (lenguajes / ecosistema técnico):**  
+  TensorFlow Documentation — Machine Learning Framework  
+  https://www.tensorflow.org/
