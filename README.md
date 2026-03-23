@@ -101,3 +101,15 @@ Resultados (Recomendaciones)
    │
    ▲
 Frontend muestra productos
+
+## 7) Riesgos
+- Riesgo 1: Predicciones inexactas debido a datos incompletos o sesgados  
+- Mitigación 1: Revisar y limpiar los datos, aplicar técnicas de balanceo y validación cruzada
+
+- Riesgo 2: Vulnerabilidad de datos personales de usuarios  
+- Mitigación 2: Implementar cifrado, políticas de privacidad, anonimización de datos y cumplimiento de GDPR/LOPD
+
+## 8) Fuente
+- Documentación oficial de frameworks de IA y minería de datos (Scikit-learn, TensorFlow, PyTorch)  
+- Artículos sobre sistemas de recomendación en e-commerce (Medium, Towards Data Science)  
+- Experiencias de integración de IA en aplicaciones web (blogs y casos prácticos DAW/DAM)
